@@ -4,9 +4,9 @@ minor-version-bump-message: '\[(feature|minor)\]'
 patch-version-bump-message: '\[(fix|patch)\]'
 branches:
   master:
-    increment: Minor
-  hotfix:
     increment: Patch
-    tag: ""
+  hotfix:
+    tag: ''
+    increment: Patch
 ignore:
   sha: []
