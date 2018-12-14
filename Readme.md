@@ -63,6 +63,13 @@ Each entry is a formatable string where `{0}` is the name of the action and `{1}
 
 `UseNamespaceViewLocations` will by default use the assembly name as a prefix to remove from the namespace, since the namespace will most likely contain the project name too. You can call `UseNamespaceViewLocations("MyDemoProject")` with a custom prefix to remove instead, if the assembly name does not match the default namespace of the project.
 
+## Contributing
+
+To create a new version:
+* Update Version number in `./Projects/Clave.NamespaceViewLocationExpander/Clave.NamespaceViewLocationExpander.csproj`
+* Run `dotnet pack -c Release` in `./Projects/Clave.NamespaceViewLocationExpander`
+* Upload to nuget.org
+
 ## License
 
 The MIT license
