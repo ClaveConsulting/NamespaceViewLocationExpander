@@ -22,8 +22,8 @@ assembly_info:
   patch: false
 
 before_build:
-  - ps: dotnet restore
   - ps: gitversion /l console /output buildserver /updateAssemblyInfo
+  - ps: dotnet restore
 
 build:
   publish_nuget: true
