@@ -43,6 +43,5 @@ deploy:
   tag: $(GitVersion_MajorMinorPatch)
   auth_token:
     secure: nPJh/+wrSf4Yw8C/JOnjt0fSsXPcFV80Xcjv+N5uHw7rZH2tozFBq3THcNceFkF0
-  repository: ClaveConsulting/NamespaceViewLocationExpander
   on:
     branch: master
