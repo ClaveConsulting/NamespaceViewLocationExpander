@@ -9,11 +9,11 @@ image: Visual Studio 2017
 dotnet_csproj:
   patch: true
   file: '**\*.csproj'
-  version: '{GitVersion_MajorMinorPatch}'
-  package_version: '{GitVersion_MajorMinorPatch}'
-  assembly_version: '{GitVersion_MajorMinorPatch}'
-  file_version: '{GitVersion_MajorMinorPatch}'
-  informational_version: '{GitVersion_MajorMinorPatch}'
+  version: '{version}'
+  package_version: '{version}'
+  assembly_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
 
 install:
   - choco install gitversion.portable -pre -y
