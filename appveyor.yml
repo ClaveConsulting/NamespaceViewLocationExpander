@@ -2,6 +2,8 @@
   only:
   - master
 
+skip_tags: true
+
 image: Visual Studio 2017
 
 dotnet_csproj:
