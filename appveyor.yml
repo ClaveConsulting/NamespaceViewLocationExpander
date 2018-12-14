@@ -39,5 +39,6 @@ deploy:
 - provider: GitHub
   auth_token:
     secure: rZCSsjj4ffS5ik+l6+LfiCPTCYkkrxqdd/icVhGn7Qclw+xu2v8xnltbuDBnloj30uoYBd+NKnGXHSJszC6RSQwFkTkG2JIyPjUSfCG3ZFk=
+  repository: ClaveConsulting/NamespaceViewLocationExpander
   on:
     branch: master
